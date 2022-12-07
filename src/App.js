@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Route, Link, Routes} from "react-router-dom";
 
-function App() {
+//components brought in for the different routes
+import Home from "./components/Home";
+import Resume from "./components/Resume";
+
+
+//now we build the stuff and pass around some props
+export default function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div className="App">
+  <nav>
+  <Link to="/">Home</Link>
+  <Link to="/Resume">Resume</Link>
+  </nav>
+  <div>
+    <Routes>
+    <Route exact path="/" element={<Home />}/>
+    <Route path="/Resume" element={<Resume />}/>
+    </Routes>
+  </div>
+</div>
   );
 }
 
-export default App;
