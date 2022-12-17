@@ -1,4 +1,6 @@
 import React from 'react'
+import PersonalInterests from './PersonalInterests'
+import SoftSkills from './SoftSkills'
 
 function Personal() {
   return (
@@ -7,7 +9,8 @@ function Personal() {
       <h1>You wanted to know more!</h1>
       </div>
       <div>
-        <p>middle section explains my soft skills and personal interests outside of work.</p>
+        <SoftSkills />
+        <PersonalInterests />
       </div>
       
     

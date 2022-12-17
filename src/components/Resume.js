@@ -2,7 +2,7 @@ import React from 'react'
 
 import Edu from './Edu.js';
 import PreEx from './PreEx.js';
-
+import Skills from './Skills.js';
 
 function Resume() {
   return (
@@ -15,6 +15,7 @@ function Resume() {
       </div> 
       <div className='RightBdy'>
         <Edu />
+        <Skills/>
       </div>
 
 

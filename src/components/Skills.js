@@ -35,12 +35,12 @@ export default function Skills() {
   return (
     
     <div className='SkllSection'>
-    <h3 className='SkllTitleHeader'>Education : </h3>
+    <h3 className='SkllTitleHeader'>Skills : </h3>
     {skills[0] !== "" ?
         <div className='SkllCards'> 
             {skills.map((sklls) =>
-            <ul className='edCardItems'>                    
-                <p className='edCarName'>{sklls}</p>                
+            <ul className='skllCardItems'>                    
+                <li className='skllLstItms'>{sklls}</li>               
             </ul>
             )} 
         </div> 
