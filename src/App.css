@@ -1,0 +1,103 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*App-header is getting reused for the landing page layout*/
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.rsmBdy{
+  width: 99%;
+  margin: auto 0.5%;
+  display: flex;
+  background-color: rgb(252, 238, 220);
+
+
+  
+}
+
+.leftBdy{
+width:49%;
+display: inline-block;
+border: red;
+border-style: solid;
+
+}
+.RightBdy{
+width: 49%;
+display: inline-block;
+border: red;
+border-style: solid;
+margin: 0 auto;
+
+}
+
+.EduSection, .ExpSection {
+  width: 100%;/*width percentage is space used in the current parent container */
+  border: grey;
+  border-style: solid; 
+  display: flexbox;
+  justify-content: flex-start;    
+}
+
+.EduCards, .ExpCards{
+  padding: 5px 5px 5px 5px; 
+}  
+
+.EduTitleHeader, .ExpTitleHeader{
+display:block;
+flex-wrap: nowrap;
+text-align: left;
+padding-left: 5px;
+color: blue;
+}
+
+div.edCardItems, div.exCardItems {
+display: block;
+flex-wrap: nowrap;
+flex-direction: column;
+justify-content: flex-end;
+text-align: left;
+width: 85%;
+margin-left: 5%;
+}
+
+/* titling for the card */
+.edCarName, .edCarName2, .exCarCompany, .exCarPosition{
+  text-align: left;
+}
+
+.edCardCmpDt, .edCardDegree,.exCardStartedEnd, .exCardLocation{
+  text-align: left;
+  padding-left: 10%;
+  font-size: 0.8Rem;
+}
+
+.edDscrptn, .exResponsibilities{
+  text-align: left;
+  padding-left: 10%;
+  font-size: 0.8Rem;
+}
+
+.exResponsibilities li{
+  margin-left: 3.5%;
+  font-size: 0.7Rem;
+}
+

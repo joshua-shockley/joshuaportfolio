@@ -58,13 +58,37 @@ export default function PreEx() {
 
 
     return (
-        <div>
-            <h3>Previous Experience : </h3>
-            {pExp[0].company !== "companyName" ?
-                <div> data is updated make the jsx already </div>
-                :
-                <div> not data yet </div>}
+        <div className='ExpSection'>
+        <h3 className='ExpTitleHeader'>Experience : </h3>
+        {pExp[0].company !== "companyName" ?
+            <div className='ExpCards'> 
+                {pExp.map((Ex) =>
+                <div className='exCardItems'>                    
+                    <h4 className='exCarCompany'>{Ex.company}</h4>
+                    <h5 className='exCarPosition'>{Ex.position}</h5>
+                    <p className='exCardStartedEnd'>{Ex.started} to {Ex.left}</p>
+                    <p className='exCardLocation'>{Ex.location}</p>
+                    <ul className='exResponsibilities'>
+                        {Ex.responsibilitites.map((resp)=>
+                          <li>{resp}</li>  
+                        )}
+                    </ul>
+                </div>
+                )} 
+            </div> 
+            : 
+            <div> not data yet </div>
+        }
 
-        </div>
-    );
+    </div>
+);
+    //     <div>
+    //         <h3>Previous Experience : </h3>
+    //         {pExp[0].company !== "companyName" ?
+    //             <div> data is updated make the jsx already </div>
+    //             :
+    //             <div> not data yet </div>}
+
+    //     </div>
+    // );
 };

@@ -54,7 +54,7 @@ export default function Skills() {
         "PCB projects",
         "Home Construction/Renovation",
         "Leather crafting",
-        "In Home Wiring/coax, catV, phone",
+        "In Home Wiring including coax, catV, phone",
         "Music",
         "Aggressive Blading",
         "Jeeping",
