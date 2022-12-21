@@ -1,5 +1,5 @@
 //build up the details here until we can put that into a for real backend.
-let statements = [
+const statements = [
     {
         numberText: '1',
         title: "The Crafty One",
@@ -18,7 +18,7 @@ let statements = [
     {
         numberText: '4',
         title: "Leaders Know How to Follow",
-        captionText: "In school programs and ROTC I found myself in leadership rolls and the ideals that helped me understand what made a good leader followed me into my worklife. During that time frame I learned that good leaders first have to understand how to follow the direction of others that have experiance. Without learning from those who have walked the path before you, it is difficult to understand what virtues a good leader has. Knowing that we don't know everything is always a great place to simmer. This way we keep our minds open to learning new things and are able to filter out our own biases."
+        captionText: "In school programs and ROTC I found myself in leadership rolls and the ideals that helped me understand what made a good leader followed me into my worklife. During that time frame I learned that good leaders first have to understand how to follow the direction of others that have experience. Without learning from those who have walked the path before you, it is difficult to understand what virtues a good leader has. Knowing that we don't know everything is always a great place to simmer. This way we keep our minds open to learning new things and are able to filter out our own biases."
     }
 ];
 export default statements;

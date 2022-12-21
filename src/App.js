@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {Route, Link, Routes} from "react-router-dom";
 
 //components brought in for the different routes
@@ -7,8 +7,16 @@ import Resume from "./components/Resume";
 import './App.css';
 import Personal from "./components/Personal";
 
+//pass in some practic props to get used to passing things around
+import Data from './Data/Data.js';
+
 //now we build the stuff and pass around some props
 export default function App(){
+
+const [datas,setDatas] = useState(Data);
+
+console.log(datas)
+
   return (
 <div className="App">
   <nav>
@@ -18,7 +26,7 @@ export default function App(){
   </nav>
   <div>
     <Routes>
-    <Route exact path="/" element={<Home />}/>
+    <Route exact path="/" element={<Home myData={datas}/>}/>
     <Route path="/Resume" element={<Resume />}/>
     <Route path="/Personal" element={<Personal />}/>
     </Routes>

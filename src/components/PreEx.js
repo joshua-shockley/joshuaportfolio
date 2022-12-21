@@ -79,8 +79,7 @@ export default function PreEx() {
             : 
             <div> not data yet </div>
         }
-
-    </div>
+       </div>
 );
     //     <div>
     //         <h3>Previous Experience : </h3>

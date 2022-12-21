@@ -5,6 +5,8 @@ import PreEx from './PreEx.js';
 import Skills from './Skills.js';
 
 function Resume() {
+
+
   return (
     
     <>
@@ -16,6 +18,7 @@ function Resume() {
       <div className='RightBdy'>
         <Edu />
         <Skills/>
+        
       </div>
 
 
