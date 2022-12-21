@@ -7,12 +7,14 @@ import Resume from "./components/Resume";
 import './App.css';
 import Personal from "./components/Personal";
 
-//pass in some practic props to get used to passing things around
+//pass in some practice props to get used to passing things around
 import Data from './Data/Data.js';
 
 //now we build the stuff and pass around some props
 export default function App(){
-
+//although we are grabbing the "Data" from the imported file, we have to apply it 
+//to a const either directly or if we will adapt the propeties at some point then with useState.
+// later when we need to adjust the "state" of datas we can use useEffect to update it with setDatas(below).
 const [datas,setDatas] = useState(Data);
 
 console.log(datas)
