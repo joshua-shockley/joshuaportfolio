@@ -8,13 +8,14 @@ function Info(props) {
 
     console.log("Informies:", Informies);
 
+    // the use of the "key ={inf.numberText}" is to help define that each item is unique
   return (
     <>
         {Informies.map((inf)=>
-        <>
-        <h3>{inf.title}</h3>
+        <div key={inf.numberText}>
+        <h3 >{inf.title}</h3>
         <p>{inf.captionText}</p>
-        </>
+        </div>
         )}
     </>
   )
