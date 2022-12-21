@@ -16,7 +16,8 @@ export default function App(){
 //to a const either directly or if we will adapt the propeties at some point then with useState.
 // later when we need to adjust the "state" of datas we can use useEffect to update it with setDatas(below).
 const [datas,setDatas] = useState(Data);
-
+//if the state of my details are not yet in a hosted backend then I may not need to fully use
+//the useState hook at this time.
 console.log(datas)
 
   return (
