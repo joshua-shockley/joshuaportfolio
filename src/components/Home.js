@@ -20,7 +20,8 @@ const [dtls, setDtls]=useState(myData[Math.floor(Math.random()*myData.length)])
     <>
       <div className='App-header-Home'>
         <div className='leftBdy'>
-          words
+          Picture of my glorious face
+          
         </div>
         <div className='RightBdy'>
           <h1 className='MyNm'>Joshua Shockley</h1>
