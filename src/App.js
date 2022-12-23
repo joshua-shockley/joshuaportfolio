@@ -22,7 +22,7 @@ console.log(datas)
 
   return (
 <div className="App">
-  <nav>
+  <nav className="HdrLnks">
   <Link className="App-link" to="/">Home</Link>
   <Link className="App-link" to="/Resume">Resume</Link>
   <Link className="App-link" to="/Personal">About Me</Link>

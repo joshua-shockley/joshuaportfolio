@@ -18,9 +18,25 @@
   font-size: calc(10px + 2vmin);
   color: whitesmoke;
 }
+.App-header-Home {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
 
-.App-link {
-  color: #61dafb;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+
+.App-link, a {
+  /* color: #61dafb; */
+  color: #363b46;
+  text-decoration: none;
+}
+.App-link:hover, a:hover{
+  color:aquamarine;
+  text-decoration:none;
 }
 
 .rsmBdy{
@@ -28,18 +44,27 @@
   margin: auto 0.5%;
   display: flex;
   background-color: rgb(252, 238, 220);
-
-
-  
+}
+.HomeBdy{
+  width: 99%;
+  margin: auto 0.5%;
+  display: flex;
 }
 
+.HdrLnks{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  background-color: #282c34;
+
+}
 .leftBdy{
 width:49%;
 display: inline-block;
 border: red;
 border-style: solid;
-
 }
+
 .RightBdy{
 width: 49%;
 display: inline-block;
