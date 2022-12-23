@@ -21,7 +21,7 @@ const [dtls, setDtls]=useState(myData[Math.floor(Math.random()*myData.length)])
       <div className='App-header-Home'>
         <div className='leftBdy'>
           Picture of my glorious face
-          
+
         </div>
         <div className='RightBdy'>
           <h1 className='MyNm'>Joshua Shockley</h1>
@@ -37,7 +37,7 @@ const [dtls, setDtls]=useState(myData[Math.floor(Math.random()*myData.length)])
         </div>
       </div>
       <div>
-        <h2 className='bttmCntctInfo'>Contact me at my LinkedIn - <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/joshuawdshockley/'>joshuawdshockley</a></h2>
+        {/* <h2 className='bttmCntctInfo'>Contact me at my LinkedIn - <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/joshuawdshockley/'>joshuawdshockley</a></h2> */}
         {/* <Info myData={myData} key={myData.numberText}/> */}
       </div>
     </>

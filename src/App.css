@@ -3,39 +3,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-/*App-header is getting reused for the landing page layout*/
 .App-header {
-  background-color: #282c34;
+  background-color: #202124;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: whitesmoke;
+  color: #ffff00;
 }
 .App-header-Home {
-  background-color: #282c34;
+  background-color: #202124;
   min-height: 100vh;
   display: flex;
-
   align-items: center;
   justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: whitesmoke;
+  color: #ffff00;
 }
 
 .App-link, a {
   /* color: #61dafb; */
-  color: #363b46;
+  color: #2b2d31;
   text-decoration: none;
 }
 .App-link:hover, a:hover{
-  color:aquamarine;
+  color:#ffff00;
   text-decoration:none;
 }
 
@@ -55,7 +49,7 @@
   width: 100%;
   display:flex;
   justify-content: space-between;
-  background-color: #282c34;
+  background-color:#202124;
 
 }
 .leftBdy{

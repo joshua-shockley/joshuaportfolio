@@ -18,14 +18,16 @@ export default function App(){
 const [datas,setDatas] = useState(Data);
 //if the state of my details are not yet in a hosted backend then I may not need to fully use
 //the useState hook at this time.
-console.log(datas)
+// console.log(datas)
 
   return (
 <div className="App">
   <nav className="HdrLnks">
   <Link className="App-link" to="/">Home</Link>
   <Link className="App-link" to="/Resume">Resume</Link>
+  
   <Link className="App-link" to="/Personal">About Me</Link>
+  <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/joshuawdshockley/'>LinkedIn</a>
   </nav>
   <div>
     <Routes>
